@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+.Contenedor{
+    display:flex;
+    justify-content: center;
+    min-height:100vh;
+    width:100%;
+    border:1px solid red;
+    position:relative;
+}
+
+.Sidebar{
+    width: 20%;
+    height: 100vh;
+    border:1px solid blue;
+    top:0;
+    left:0;
+}
+
+.Chat{
+    width: 80%;
+    height: 100vh;
+    border:1px solid green;
+    top:0;
+    left:0;
+}
